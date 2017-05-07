@@ -13,6 +13,6 @@
         }
     ],
     "require": {
-      "crazy-opendata/core": "dev-master"
+      "crazy-opendata/core": "1.0"
     }
 }

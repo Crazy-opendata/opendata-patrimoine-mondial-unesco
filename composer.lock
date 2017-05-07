@@ -4,12 +4,12 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "9b0568cd0c51460085f0461c0ea5c4f1",
-    "content-hash": "3aa41ceb49422530848b4162a34add75",
+    "hash": "0c94d971ffae3831cb69c9abcb0319ec",
+    "content-hash": "355fbc5ea5da82a6459f5cbdc0124608",
     "packages": [
         {
             "name": "crazy-opendata/core",
-            "version": "dev-master",
+            "version": "v1.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/Crazy-opendata/core.git",
@@ -44,9 +44,7 @@
     "packages-dev": [],
     "aliases": [],
     "minimum-stability": "stable",
-    "stability-flags": {
-        "crazy-opendata/core": 20
-    },
+    "stability-flags": [],
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": [],
