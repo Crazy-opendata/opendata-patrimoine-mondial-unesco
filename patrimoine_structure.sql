@@ -35,6 +35,7 @@ CREATE TABLE patrimoine (
 	iso_code varchar(50),
 	udnp_code varchar(50),
 	transboundary int(3),
+	coordonnees varchar(255),
 	primary key(id),
 	key(id_no)
 ) CHARSET=utf8;

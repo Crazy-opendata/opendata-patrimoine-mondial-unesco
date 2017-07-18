@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "0c94d971ffae3831cb69c9abcb0319ec",
-    "content-hash": "355fbc5ea5da82a6459f5cbdc0124608",
+    "hash": "b6a00dd047623a932f2fbb374230c1f8",
+    "content-hash": "c1b7314431bdf98aed46d257f4806397",
     "packages": [
         {
             "name": "crazy-opendata/core",
@@ -39,12 +39,45 @@
                 "issues": "https://github.com/Crazy-opendata/core/issues"
             },
             "time": "2016-07-27 21:38:58"
+        },
+        {
+            "name": "prairiewest/PHPconvertDMSToDecimal",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/Wilkins/PHPconvertDMSToDecimal.git",
+                "reference": "a14bfefa0303a4b18f1c5935ccb20504761e6f93"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/Wilkins/PHPconvertDMSToDecimal/zipball/a14bfefa0303a4b18f1c5935ccb20504761e6f93",
+                "reference": "a14bfefa0303a4b18f1c5935ccb20504761e6f93",
+                "shasum": ""
+            },
+            "type": "library",
+            "autoload": {
+                "files": [
+                    "convert.php"
+                ]
+            },
+            "authors": [
+                {
+                    "name": "Todd Trann"
+                }
+            ],
+            "description": " Convert degrees / minutes / seconds to decimal degrees in PHP ",
+            "support": {
+                "source": "https://github.com/Wilkins/PHPconvertDMSToDecimal/tree/master"
+            },
+            "time": "2017-07-17 20:40:54"
         }
     ],
     "packages-dev": [],
     "aliases": [],
     "minimum-stability": "stable",
-    "stability-flags": [],
+    "stability-flags": {
+        "prairiewest/phpconvertdmstodecimal": 20
+    },
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": [],

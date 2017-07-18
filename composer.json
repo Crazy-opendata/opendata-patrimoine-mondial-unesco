@@ -10,9 +10,14 @@
         {
             "type": "vcs",
             "url": "https://github.com/Crazy-opendata/core"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/Wilkins/PHPconvertDMSToDecimal"
         }
     ],
     "require": {
-      "crazy-opendata/core": "1.0"
+      "crazy-opendata/core": "1.1",
+      "prairiewest/PHPconvertDMSToDecimal": "dev-master"
     }
 }
