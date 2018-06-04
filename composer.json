@@ -9,11 +9,11 @@
     "repositories": [
         {
             "type": "vcs",
-            "url": "https://github.com/Crazy-opendata/core"
+            "url": "https://framagit.org/crazy-opendata/core"
         },
         {
             "type": "vcs",
-            "url": "https://github.com/Wilkins/PHPconvertDMSToDecimal"
+            "url": "https://github.com/prairiewest/PHPconvertDMSToDecimal"
         }
     ],
     "require": {
