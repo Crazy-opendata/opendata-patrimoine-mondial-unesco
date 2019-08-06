@@ -4,21 +4,20 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "b6a00dd047623a932f2fbb374230c1f8",
-    "content-hash": "c1b7314431bdf98aed46d257f4806397",
+    "content-hash": "020f509a54d2380cfd2ed256a85fd368",
     "packages": [
         {
             "name": "crazy-opendata/core",
-            "version": "v1.0",
+            "version": "v1.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/Crazy-opendata/core.git",
-                "reference": "cae7f9d4cb48539fa7e2fd33caf9d28e7b66091b"
+                "reference": "2a4faf7dfcd1370261bc20eec4b2cafc850441cc"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Crazy-opendata/core/zipball/cae7f9d4cb48539fa7e2fd33caf9d28e7b66091b",
-                "reference": "cae7f9d4cb48539fa7e2fd33caf9d28e7b66091b",
+                "url": "https://api.github.com/repos/Crazy-opendata/core/zipball/2a4faf7dfcd1370261bc20eec4b2cafc850441cc",
+                "reference": "2a4faf7dfcd1370261bc20eec4b2cafc850441cc",
                 "shasum": ""
             },
             "type": "library",
@@ -38,20 +37,20 @@
                 "source": "https://github.com/Crazy-opendata/core/tree/master",
                 "issues": "https://github.com/Crazy-opendata/core/issues"
             },
-            "time": "2016-07-27 21:38:58"
+            "time": "2017-07-18T08:01:49+00:00"
         },
         {
             "name": "prairiewest/PHPconvertDMSToDecimal",
             "version": "dev-master",
             "source": {
                 "type": "git",
-                "url": "https://github.com/Wilkins/PHPconvertDMSToDecimal.git",
-                "reference": "a14bfefa0303a4b18f1c5935ccb20504761e6f93"
+                "url": "https://github.com/prairiewest/PHPconvertDMSToDecimal.git",
+                "reference": "b2b5ccd2fb3fb3092fe32e8a3f1bf5058cad1e25"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Wilkins/PHPconvertDMSToDecimal/zipball/a14bfefa0303a4b18f1c5935ccb20504761e6f93",
-                "reference": "a14bfefa0303a4b18f1c5935ccb20504761e6f93",
+                "url": "https://api.github.com/repos/prairiewest/PHPconvertDMSToDecimal/zipball/b2b5ccd2fb3fb3092fe32e8a3f1bf5058cad1e25",
+                "reference": "b2b5ccd2fb3fb3092fe32e8a3f1bf5058cad1e25",
                 "shasum": ""
             },
             "type": "library",
@@ -67,9 +66,10 @@
             ],
             "description": " Convert degrees / minutes / seconds to decimal degrees in PHP ",
             "support": {
-                "source": "https://github.com/Wilkins/PHPconvertDMSToDecimal/tree/master"
+                "source": "https://github.com/prairiewest/PHPconvertDMSToDecimal/tree/master",
+                "issues": "https://github.com/prairiewest/PHPconvertDMSToDecimal/issues"
             },
-            "time": "2017-07-17 20:40:54"
+            "time": "2017-07-18T05:12:23+00:00"
         }
     ],
     "packages-dev": [],

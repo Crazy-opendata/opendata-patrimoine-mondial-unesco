@@ -1,4 +1,3 @@
 vendor
-.*.swp
-*/.*.swp
 run.sh
+whc*.csv

@@ -11,6 +11,8 @@ CREATE TABLE patrimoine (
 	justification_fr text,
 	date_inscribed varchar(20),
 	secondary_dates varchar(20),
+	danger varchar(50),
+	date_end varchar(50),
 	danger_list varchar(50),
 	longitude varchar(20),
 	latitude varchar(20),
@@ -36,7 +38,15 @@ CREATE TABLE patrimoine (
 	udnp_code varchar(50),
 	transboundary int(3),
 	coordonnees varchar(255),
+	multiple int(3),
+	id_multiple varchar(8),
+	name_multiple varchar(255),
 	primary key(id),
-	key(id_no)
+	key(id_no),
+    key(coordonnees),
+    key(name_fr),
+    key(name_en),
+    key(multiple),
+    key(name_multiple)
 ) CHARSET=utf8;
 
